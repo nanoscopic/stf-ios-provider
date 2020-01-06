@@ -1,0 +1,47 @@
+{
+  "name": "stf-ios-provider",
+  "version": "3.4.0",
+  "description": "OpenSTF IOS Provider",
+  "keywords": [
+    "stf",
+    "test",
+    "remote",
+    "ios"
+  ],
+  "bugs": {
+    "url": "https://github.com/nanoscopic/stf-ios-provider/issues"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "David Helkowski",
+    "email": "stfios@codechild.com",
+    "url": "https://dryark.com/stfios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanoscopic/stf-ios-provider.git"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "eventemitter3": "^1.2.0",
+    "images": "^3.0.2",
+    "lodash": "^4.14.2",
+    "my-local-ip": "^1.0.0",
+    "protobufjs": "^3.8.2",
+    "request-promise": "^4.2.4",
+    "split": "^1.0.0",
+    "stf-syrup": "^1.0.0",
+    "uuid": "^3.0.0",
+    "zmq": "^2.14.0",
+    "yargs": "^6.6.0",
+    "zeromq": ">= 4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "externalDependencies": {
+    "zeromq": ">= 4",
+    "protobuf": ">= 3"
+  }
+}
