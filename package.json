@@ -28,7 +28,7 @@
     "images": "^3.0.2",
     "lodash": "^4.14.2",
     "my-local-ip": "^1.0.0",
-    "protobufjs": "^3.8.2",
+    "protobufjs": "^6.8.8",
     "request-promise": "^4.2.4",
     "rfb2": "^0.0.2",
     "split": "^1.0.0",
