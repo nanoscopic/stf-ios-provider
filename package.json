@@ -22,28 +22,32 @@
     "url": "https://github.com/nanoscopic/stf-ios-provider.git"
   },
   "dependencies": {
-    "bluebird": "^2.10.1",
-    "chalk": "~1.1.1",
-    "eventemitter3": "^1.2.0",
-    "images": "^3.0.2",
-    "lodash": "^4.14.2",
+    "bluebird": "^3.7.2",
+    "chalk": "~3.0.0",
+    "eventemitter3": "^4.0.0",
+    "form-data": "^3.0.0",
+    "pngjs": "^3.4.0",
+    "jpeg-js": "^0.3.6",
+    "lodash": "^4.17.15",
     "my-local-ip": "^1.0.0",
-    "protobufjs": "^3.8.2",
-    "request-promise": "^4.2.4",
+    "protobufjs": "^5.0.3",
+    "request-promise": "^4.2.5",
+    "node-fetch": "^2.6.0",
     "rfb2": "^0.0.2",
-    "split": "^1.0.0",
+    "semver": "^7.1.2",
+    "split": "^1.0.1",
     "stf-syrup": "^1.0.0",
-    "uuid": "^3.0.0",
-    "zmq": "^2.14.0",
-    "yargs": "^6.6.0",
-    "zeromq": ">= 4"
+    "uuid": "^3.4.0",
+    "yargs": "^15.1.0",
+    "zeromq": "^6.0.0-beta.6",
+    "request": "^2.88.2"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">= 8.0"
+    "node": ">= 12.0"
   },
   "externalDependencies": {
-    "zeromq": ">= 4",
+    "zeromq": ">= 6",
     "protobuf": ">= 3"
   }
 }
