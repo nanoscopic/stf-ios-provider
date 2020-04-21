@@ -10,8 +10,8 @@ const TestTransporter = (function() {
       async push(_udid, binaryPath) {
         return fs.readFileSync(binaryPath, 'utf8')
       },
-      async launch(_udid, bundleId) {
-        return bundleId
+      async uninstall(udid, bundleId) {
+        return `${udid}-${bundleId}`
       }
   }
 })()
@@ -31,10 +31,11 @@ describe('device', function() {
         expect(result).to.equal(testData)
     })
 
-    /*it('should launch bundleId', async () => {
-      const testData = 'bundleId'
-      const result = await iosDeploy(TestTransporter).startActivity('udid', testData)
-      expect(result).to.equal(testData)
-    })*/
+    it('should handle delete app', async () => {
+      const bundleId = 'bundleId'
+      const udid = 'testUdid'
+      const result = await iosDeploy(TestTransporter).uninstall(udid, bundleId)
+      expect(result).to.equal(`${udid}-${bundleId}`)
+    })
   })
 })
