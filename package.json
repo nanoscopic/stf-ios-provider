@@ -27,7 +27,7 @@
     "eventemitter3": "^4.0.0",
     "form-data": "^3.0.0",
     "pngjs": "^3.4.0",
-    "jpeg-js": "^0.3.6",
+    "jpeg-js": "^0.4.1",
     "lodash": "^4.17.15",
     "my-local-ip": "^1.0.0",
     "protobufjs": "^5.0.3",
