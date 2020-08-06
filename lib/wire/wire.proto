@@ -79,6 +79,12 @@ enum MessageType {
   FileSystemGetMessage       = 82;
   ConnectStartedMessage      = 92;
   ConnectStoppedMessage      = 93;
+  
+  AlertTextMessage           = 1300;
+  AlertButtonsMessage        = 1301;
+  AlertAcceptMessage         = 1302;
+  AlertDismissMessage        = 1303;
+  InputWheelMessage          = 1304;
 }
 
 message ConnectStartedMessage {
@@ -573,3 +579,22 @@ message RotationEvent {
   required string serial = 1;
   required int32 rotation = 2;
 }
+
+message AlertTextMessage {
+}
+
+message AlertButtonsMessage {
+}
+
+message AlertAcceptMessage {
+  required string name = 1;
+}
+
+message AlertDismissMessage {
+  required string name = 1;
+}
+
+message InputWheelMessage {
+  required uint32 dist = 1;
+}
+
