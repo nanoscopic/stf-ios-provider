@@ -595,6 +595,6 @@ message AlertDismissMessage {
 }
 
 message InputWheelMessage {
-  required uint32 dist = 1;
+  required int32 dist = 1;
 }
 
