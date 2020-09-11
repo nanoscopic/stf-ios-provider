@@ -42,7 +42,8 @@
     "yargs": "^15.1.0",
     "zeromq": "^6.0.0-beta.6",
     "request": "^2.88.2",
-    "temp": "^0.9.1"
+    "temp": "^0.9.1",
+    "transliteration": "^1.1.6"
   },
   "devDependencies": {},
   "engines": {
