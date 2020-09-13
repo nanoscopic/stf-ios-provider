@@ -38,7 +38,7 @@
     "split": "^1.0.1",
     "stf-syrup": "^1.0.0",
     "teen_process": "^1.15.0",
-    "uuid": "^3.4.0",
+    "uuid": "^8.3.0",
     "yargs": "^15.1.0",
     "zeromq": "^6.0.0-beta.6",
     "request": "^2.88.2",
