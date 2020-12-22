@@ -1,201 +1,226 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+Copyright (c) 2020 David Helkowski
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Free Use Anti-Corruption License
 
-   1. Definitions.
+=======================================================================
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+The content of this project is licensed for free conditional use by those
+not employed by THE RESTRICTED PARTY. The conditional aspect is that the use
+does not benefit THE RESTRICTED PARTY.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+THE RESTRICTED PARTY is any person or legal entity meeting any of the
+following conditions:
+1. A person who is employed directly or transitively by a RESTRICTED ENTITY.
+2. A legal entity engaged in contractual business for a RESTRICTED ENTITY.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+A DIRECT RESTRICTED ENTITY is defined to be any of the following:
+- Accenture          https://en.wikipedia.org/wiki/Accenture
+- Amazon             https://en.wikipedia.org/wiki/Amazon_(company)
+- Apple
+- AptEdge            https://aptedge.io
+- Avalara            https://www.avalara.com
+- Baltimore Sun
+- BCG                https://en.wikipedia.org/wiki/Boston_Consulting_Group
+- BrowserStack       https://www.browserstack.com
+- The Canton Group   https://cantongroup.com
+- Comcast
+- Cruise LLC         https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle)
+- Disney
+- Ebay
+- Epic Games
+- EQT Partners       https://en.wikipedia.org/wiki/EQT_Partners
+- Equifax
+- Experian
+- Extrahop           https://www.extrahop.com
+- Facebook
+- Fox Entertainment Group
+- Headspin           https://www.headspin.io
+- IBM
+- Insight Global     https://www.insightglobal.com
+- Jamf               https://www.jamf.com
+- Kobiton            https://www.kobiton.com
+- Logic 20/20        https://www.logic2020.com
+- Micro Focus        https://en.wikipedia.org/wiki/Micro_Focus
+- Mobica             https://mobica.com
+- NBC
+- Nintendo           https://en.wikipedia.org/wiki/Nintendo
+- Oracle Corporation https://en.wikipedia.org/wiki/Oracle_Corporation
+- Palantir
+- Perfecto           https://www.perfecto.io
+- ProKarma           https://pkglobal.com
+- Sauce Labs         https://saucelabs.com
+- Sinclair           https://en.wikipedia.org/wiki/Sinclair_Broadcast_Group
+- Sony Corporation   https://en.wikipedia.org/wiki/Sony
+- Sprint Corporation https://en.wikipedia.org/wiki/Sprint_Corporation
+- Systems Alliance   https://www.systemsalliance.com
+- SUSE               https://en.wikipedia.org/wiki/SUSE
+- TEKsystems         https://www.teksystems.com
+- TMobile            https://en.wikipedia.org/wiki/T-Mobile
+- TransUnion
+- T. Rowe Price      https://en.wikipedia.org/wiki/T._Rowe_Price
+- Verizon
+- Wells Fargo
+- Zulily
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+The links given are to clarify which companies exactly are meant. Should
+those links become invalid the original content of those links on the
+date 11/24/2020 shall apply.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+A RESTRICTED ENTITY is defined to be any of the following:
+1. A DIRECT RESTRICTED ENTITY
+2. An owner of a RESTRICTED ENTITY
+3. A subsidiary or any functional business unit of a RESTRICTED ENTITY
+4. Any entity of which 50% of its annual revenue comes from work done for
+a RESTRICTED ENTITY
+5. An entity that broke off from a RESTRICTED ENTITY ( such as a company
+splitting up into different legal entities )
+6. An international counterpart of a RESTRICTED ENTITY.
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+LICENSEE refers to any party ( person or legal entity ) accepting this
+license and hence making use of THE CONTENT or utilizing any of the
+permissions provided by the license. By definition a LICENSEE cannot be
+a RESTRICTED ENTITY.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+THE CONTENT refers to the content in full, any portion of it, and anything
+derived from it.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+LICENSEE agrees not to provide THE CONTENT to THE RESTRICTED PARTY, nor to
+allow THE CONTENT to be used in any way by THE RESTRICTED PARTY.
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+THE RESTRICTION is defined to be this license in full, specifically to
+refer to the way the license restricts use of THE CONTENT in any way by
+THE RESTRICTED PARTY.
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+THE RESTRICTION shall apply to all projects with Copyright
+ownership by THE RESTRICTED PARTY. This shall remain true even if the
+project contributions themselves are done by a person not in THE
+RESTRICTED PARTY. Example: No project with a copyright ownership by Amazon
+may use this project in any way.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+To those wondering why THE RESTRICTION has been applied it is due to the
+author's personal experience with these companies and their blatant disregard
+for the open source community as well as their illegal methods of interacting
+with their employees, clients, and customers.
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+Some additional reasons for your consideration:
+- Amazon: Refused to release a rewrite of Apache Avro as open source when
+the sole developer requested it. Additionally Amazon has extensive modifications
+to tens of thousands of open source libraries that they refuse to contribute
+back to the upstream creators. Amazon is a plague on the earth. Amazon also
+holds many software patents which they claim are only used "in defense", but it
+is a complete lie. See their various suits over their ridiculous "One Click"
+patent.
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+- Apple: Consistently ignores developers reaching out to them to attempt to
+get information / support on their products.
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+- Avalara: Illegal employment practices. Specfically around reasons for
+termination ( past history )
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+- Disney: Copyright should not be eternal. "The vault"
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+- Ebay: "Buy it now" patent; https://patents.google.com/patent/US5845265
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+- Epic Games: Paying off game companies to make themselves into an
+intentional illegal monopoly on offering those games.
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+- Headspin: Refused to release iOS support for STF. Abandoned most support
+for STF and left it to languish.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+- Micro Focus / SUSE / EQT: Refused to release build process information for
+their k8s distribution, only offering the raw source code. This was an
+intentional effort to skirt open source requirements and prevent usage of
+their k8s offering without paying for support. When directly told that this
+was wrong, the leaders at the highest levels of the company responded that
+this was intentional and they want to prevent fully open source usage.
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+- Baltimore Sun / NBC: Refusal to acknowledge and comply with "Right to forget"
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
+- Boston Consulting Group: You know "The Bobs" from Office Space? That's them. 
 
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
+- Nintendo: Threatened to sue David Helkowski at the age of 15 for creating
+the fan site N64.org. Eventually they realized that was nonsense and
+purchased the domain for the measly sum of $100. Nintendo is/are really
+horrible in the way they handle fair usage of their IP. Other examples are
+their takedowns of emulators of their systems. RIP UltraHLE.
 
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
+- Oracle: Due to their ridiculous attempts to Copyright an API and their
+general behavior with Java.
 
-   END OF TERMS AND CONDITIONS
+- Palantir: Spying on US citizens.
 
-   APPENDIX: How to apply the Apache License to your work.
+- Sinclair Broadcast Group: Deliberate license breaking/abuse. Refused to
+correct their practices and continues to use software illegally.
 
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+- Sony: Due to revoking OtherOS on the PS3 despite it being a labelled
+feature on the box we bought the PS3 in. Most never received their $55 for
+this, and few wantthat $55. They want OtherOS back. Also due to their
+constant updates to device firmware that in no way enhance the devices and
+are purely reactions to attempt to prevent fair usage of their devices in an
+open source fashion. Sony also released malware to attempt to prevent copying
+of their CDs 
+( See https://en.wikipedia.org/wiki/Sony_BMG_copy_protection_rootkit_scandal )
 
-   Copyright [yyyy] [name of copyright owner]
+- Sprint: Because they are now owned by TMobile.
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+- TMobile / Insight Global / Logic 20/20: Refusal to give reasonable
+accomodation for Autistic engineers. ( and termination for being Autistic )
 
-       http://www.apache.org/licenses/LICENSE-2.0
+- T.Rowe Price: Terrible internal security practices.
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+- Comcast / Verizon: Unethical "overage charges" / violation of Net Neutrality
+
+- Wells Fargo: Unethical late fees
+
+- Kobiton / Perfecto / BrowserStack / Sauce Labs: All reverse engineered
+Apple APIs and refuse to share the information gained to the open source
+community automating iOS devices.
+
+Considering their disregard for law and common morality it is likely this
+license will not prevent their illegal usage of the software, but it is an
+attempt to prevent it none the less.
+
+For an understanding of the moral framework these judgements are made from
+see https://github.com/nanoscopic/beliefN
+( specifically the points that information should be free, non-cooperation
+with immoral people, and the legal framework available should be used as
+possible to do so )
+
+=======================================================================
+
+Permission is hereby granted, free of charge, to LICENSEE, to conditionally
+use, modify, publish, distribute, or sell copies of THE CONTENT.
+
+These permissions are granted with the following conditions:
+
+1. THE CONTENT may not be distributed or sold to THE RESTRICTED PARTY.
+
+2. Access to a service containing or utilizing THE CONTENT may not be
+given, sold, or licensed to THE RESTRICTED PARTY. 
+
+3. Any service containing or utilizing THE CONTENT shall be considered a
+derivative of this license and therefore by bound by THE RESTRICTION.
+This includes use of THE CONTENT by way of dynamic libraries, indirect calls,
+scripting, virtualization, containerization, or instantiation as a remote
+callable service. Such restricted software must be prevented from being
+used by THE RESTRICTED PARTY.
+
+4. THE CONTENT cannot be sold to THE RESTRICTED PARTY.
+
+5. THE CONTENT may not be published to or distributed through a system
+owned or controlled by THE RESTRICTED PARTY.
+
+6. Any derivatives of THE CONTENT must be licensed under this same license.
+By same license this means the contents of this LICENSE file in its
+entirety. No modifications may be made to the license.
+
+7. The above copyright notice and this LICENSE file must be included in
+all copies and derivative forms of THE CONTENT.
+
+8. LICENSEE understands and agrees that this content is provided "as is",
+without warranty of any kind, express or implied, including but not limited
+to the warranties of merchantability, fitness for a particular purpose and
+noninfringement. In no event shall the authors or copyright holders be liable
+for any claim, damages or other liability, whether in an action of contract,
+tort or otherwise, arising from, out of or in connection with THE CONTENT or
+the use or other dealings of it.
